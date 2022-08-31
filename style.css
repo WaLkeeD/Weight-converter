@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: linear-gradient(rgb(255, 192, 203) 50%, rgb(176, 224, 230) 50%);
+}
+
+.container {
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  width: 90vw;
+  max-width: 44.8rem;
+  padding: 4.8rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 0 3.2em rgba(1, 3, 29, 0.2);
+  border-radius: 0.96rem;
+  border: 2px solid rgb(84, 84, 84);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0.5rem;
+}
+.container input {
+  width: 100%;
+  font-size: 2rem;
+  border-radius: 0.5rem 1rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.7rem 1rem;
+  border-width: 2px;
+  border-style: inset;
+  border-color: rgba(118, 118, 118, 0.522);
+}
+.container input:hover {
+  background-color: #dfdfdf;
+}
+
+@media (max-width: 450px) {
+  .container label {
+    font-size: 1.6rem;
+  }
+  .container h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
